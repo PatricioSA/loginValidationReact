@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d3d3;
+}
+
+#container #loginForm {
+  width: 400px;
+  padding: 1rem;
+  border-radius: .5rem;
+  background-color: #ffffff;
+}
+
+#container #loginForm div {
+  margin-bottom: 1rem;
+}
+
+#container #loginForm input {
+  width: 100%;
+  border: 0;
+  outline: none;
+  border-bottom: 1px solid black;
+  font-size: 1rem;
+}
+
+#container #loginForm .btn {
+  width: 100%;
+  padding: 1rem 0 1rem 0;
+  border-radius: .5rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+  cursor: pointer;
+}
+
+#container #loginForm #btnLogin {
+  background-color: green;
+  margin-top: 1rem;
+}
+
+#container #loginForm #btnLoginGoogle {
+  background-color: blue;
+}
+
+#container #loginForm .btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.messageError {
+  color: red;
+  margin-top: 0;
+}
